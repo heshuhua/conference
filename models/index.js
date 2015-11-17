@@ -6,6 +6,8 @@ module.exports = function(db) {
 		"Booksale": require("./booksale")(db),
 		"ClientReview": require("./clientreview")(db),
 		"Client": require("./client")(db),
+		"Room":require("./room")(db),
+		"User":require("./user")(db),
 		"Employee": require("./employee")(db),
 		"Store": require("./store")(db),
 		"Author": require("./author")(db)
